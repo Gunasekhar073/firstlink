@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="/styles/styles.css">
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 010px;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+
+        animation-fill-mode: var(#2f9bcd);
+        
+    }
+    header {
+        background-color: #f2f2f2;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        animation-composition: #225972;
+
+        transform: translateY(-2px);
+        transition: background-color 0.3s ease, box-shadow 0.3s
+        ease, transform 0.3s ease;
+    }
+
+    h1 {
+        color: blue;
+        font-size: 24px;
+        text-align: center;
+    }
+    body {
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        margin: 20px;
+        padding: 30px;
+        background-color: #ffffff;
+        color: #842121;
+        font-size: 18px;
+        background-image: url('/images/1.jpg');
+        background-size: cover;
+    }
+    fieldset {
+        border: 2px solid #e20000;
+        padding: 100px;
+        margin-top: 200px;
+        background-color: #f9f9f9;
+        animation-fill-mode: var(#2f9bcd);
+    }
+    legend {
+        font-weight: bold;
+        color: #d72d2d;
+        font-size: 2em;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #d72d2d;
+            border-radius: 4px;
+            border-style: double;
+            box-sizing: border-box;
+            font-size: 16px;
+            color: #0d19c0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(255, 0, 0, 0.5);
+        }
+
+        select {
+            width: 100%;
+            display: block;
+            margin-bottom: 5px;
+            color: #0d19c0;
+        }
+    
+        button {
+            background-color: #2f9bcd;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: hand;
+            margin-right: 10px;
+
+            
+        }
+
+        button:hover {
+            background-color: #5aa61c;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            transform: translateY(-2px);
+            transition: background-color 0.3s ease, box-shadow 0.3s
+                ease, transform 0.3s ease;
+            
+        }
+        img {
+            animation: spin 10s linear infinite;
+            border-radius: 100%;
+            display: block;
+            margin: 20px auto;
+
+            box-shadow: inset 0 0 100px rgba(255, 0, 0, 0.5);
+            border-style: double;
+            border-color: #2f9bcd;
+            border-width: 4px;
+            box-sizing: border-box;
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: #000000;
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        iframe {
+            margin: 20px 0;
+            border: 2px solid #d72d2d;
+            border-radius: 8px;
+            box-shadow: 0 10px 8px rgba(0, 0, 1, 0.6);
+            animation: popIn 1s ease-out;
+            animation: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            animation-delay: 2;
+            width: 100%;
+            height: 600px;
+            background-color: #000000;
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            color: #333;
+            background-color: #f21fef;
+            padding: 5px;
+            border-radius: 100px;
+            background-color: inset 0 0 100px rgb(255, 0, 0);
+            font-style: italic;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 1px;
+            line-height: 1.6;
+            word-spacing: 2px;
+            text-transform: capitalize;
+        }
+
+        video {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #d72d2d;
+            border-radius: 8px;
+            box-shadow: 0 10px 8px rgba(0, 0, 1, 0.6);
+            animation: popIn 1s ease-out;
+            animation: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            animation-delay: 2;
+            background-color: #000000;
+            background-image: url('/images/1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            opacity: 0.9;
+            box-shadow: inset 0 0 100px rgba(255, 0, 0, 0.5);
+            border-style: double;
+
+
+
+        }
+    </style>
+    
+        <header>
+            <map><h2><a href="/index.html">Home</a>
+            <a href="/demo/img.html">Demo</a>
+            <a href="/about/about.html">About</a>
+            <a href="/contact/contact.html">Contact</a> </h2></map>
+        </header>
+
+    <body>
+
+        <h1>Welcome to the demo page</h1>
+        <p>This is a demo page to showcase various HTML elements.</p>
+
+    <br>
+    <img src="/images/file_00000000cd3461f497189b3428f37e43.png" width="200px" height="200px">
+
+
+    <fieldset>
+        <legend><h3>Details</h3></legend>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" pattern="^[A-Z]{1}[a-z]{1,4}$" placeholder="Enter your name" required>(All caps)
+        <br>
+        <br>
+        <label for="phone">mobile number</label>
+        <input type="text" id="phone" name="phone" pattern="^[\d]{3}-[\d]{3}-[\d]{4}$" placeholder="Enter your mobile number" required> format: 123-456-7890
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="^[A-Za-z\d]+[@]+[A-Za-z]+[.]+[a-z]{2,}$" placeholder="Enter your email" required>
+        <br>
+        <br>
+    
+        <label for="age">age</label>
+        <input type="number" id="age" name="age" min="10" max="100" placeholder="select your age">
+        <br>
+        <br>
+
+        <label for="skills">SKILLS:</label>
+        <select id="skills" name="skills">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+            <option value="python">python</option>
+        </select>
+        <br>
+        <br>
+        <label for="comment">Comments</label>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+        <br>
+        <br>
+
+        <div>
+        <label for="passwordInput">Password</label>
+        <input type="password" id="passwordInput" name="password" pattern="^[a-z]{4,}$" placeholder="Enter your password" required>
+        </div>
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    </fieldset>
+    </form>
+    <br>
+
+     <div>
+        <video src="/videos/OYE Telugu Movie.mkv" 
+            controls
+            audio
+            loop
+            width="500px"
+            height="400px">
+        </video>
+    </div>
+
+
+    <iframe src="https://app.kodnest.com/my-learning/home" width="100%" height="1000px" title="Iframe Example">
+        Your browser does not support iframes.
+
+    </iframe>
+
+    <button type="normal">Normal Button</button>
+    <br>
+</body>
+</html>
